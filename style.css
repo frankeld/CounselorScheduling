@@ -1,0 +1,127 @@
+body {
+	margin: 0;
+}
+p {
+	
+
+}
+.header {
+	text-align: center;
+	background-color: #971b2f;
+	margin: 0;
+	color: #fff;
+}
+.header h1 {
+	padding-bottom: 50px;
+}
+.info {
+	margin: 100px 150px;
+	font-family: sans-serif;
+	color: #babc16;
+	font-size: 1.4em;
+}
+.info a {
+	color: inherit;
+}
+.info a:visited {
+	color: inherit;
+}
+.info input {
+	display: block;
+	width: 50%;
+	border: 2px solid #e4e4e4;
+	border-radius: 5px;
+	padding: 5px 10px;
+	margin: 0;
+}
+input[type=submit] {
+	margin: 15px;
+	border: 2px solid #971b2f ;
+	border-radius: 5px;
+	padding: 5px 10px;
+	background-color: #fff;
+	background-color: #fff;
+	color: #971b2f;
+    transition: background-color 0.5s linear;
+}
+input[type=submit]:hover {
+	background-color: #971b2f;
+	color: #fff;
+}
+.logo {
+	height: 200px;
+	width: auto;
+}
+.error {
+	color: #FF0000;
+}
+.calendarGrid {
+	display: table;
+	float: left;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+
+}
+.gridDay {
+	float: left;
+}
+.gridTime {
+	margin: 15px;
+	border: 2px solid #971b2f ;
+	border-radius: 5px;
+	padding: 5px 10px;
+	background-color: #fff;
+	font-size: 40px;
+}
+.gridTime.slotFree {
+	border-color: #971b2f;
+	transition: background-color 0.5s linear;
+	text-decoration: none;
+	cursor: pointer;
+}
+.gridTime.slotFree:hover {
+	background-color: #971b2f;	
+}
+.gridTime.slotFree a {
+	color: #971b2f;
+	background-color: #fff;
+	text-decoration: none;
+	transition: background-color 0.5s linear;
+}
+.gridTime.slotFree:hover a{
+	color: #fff;
+	background-color: #971b2f;
+}
+.gridTime.slotBusy {
+	color: grey;
+	background-color: lightgrey;
+}
+.gridHeader {
+	color: #babc16;
+}
+.gridHeaderDayName {
+	font-size: 300%;
+	display: block;
+}
+.gridHeaderDate {
+	font-size: 150%;
+}
+.taskDone {
+	color: green;
+}
+.arrow {
+	width: 48px;
+	height: 48px;
+}
+.nextArrow {
+	background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+NDgvbmV4dC1sYXJnZTwvdGl0bGU+PGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+PHBhdGggZD0iTTM4IDI0LjUxNHYtMS4wMjhMMjIuNjc3IDYuNzRjLS4zNzQtLjQxLS45ODQtLjQyNS0xLjM3My0uMDI0bC0xLjEwOCAxLjE0Yy0uMzg0LjM5NS0uMzkzIDEuMDM4LS4wMTYgMS40NEwzNCAyNCAyMC4xOCAzOC43MDVjLS4zNzYuNC0uMzczIDEuMDQuMDE2IDEuNDRsMS4xMDggMS4xNGMuMzg0LjM5NCAxIC4zOCAxLjM3My0uMDI1TDM4IDI0LjUxNHoiIGZpbGw9IiM5OTkiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg==");
+	float: left;
+}
+.prevArrow {
+	background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+NDgvcHJldmlvdXMtbGFyZ2U8L3RpdGxlPjxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPjxwYXRoIGQ9Ik0xMCAyNC41MTR2LTEuMDI4TDI1LjMyMyA2Ljc0Yy4zNzQtLjQxLjk4NC0uNDI1IDEuMzczLS4wMjRsMS4xMDggMS4xNGMuMzg0LjM5NS4zOTMgMS4wMzguMDE2IDEuNDRMMTQgMjRsMTMuODIgMTQuNzA1Yy4zNzYuNC4zNzMgMS4wNC0uMDE2IDEuNDRsLTEuMTA4IDEuMTRjLS4zODQuMzk0LTEgLjM4LTEuMzczLS4wMjVMMTAgMjQuNTE0eiIgZmlsbD0iIzk5OSIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+");
+	float: left;
+}
+.goneArrow {
+	visibility:hidden;
+} 
